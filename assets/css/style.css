@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/matrix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 100vh;
+}
+
+body section {
+    margin-top: 250px;
+    margin-left: 32vw;
+    color: white;
+    background-color: darkolivegreen;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 30vw;
+    border-radius: 30px;
+}
+
+body section label {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+body section img {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+body section button {
+    width: 200px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: yellow;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
